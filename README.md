@@ -38,7 +38,7 @@ NEW_G6-Simulation/
 ## 🚀 Getting Started
 
 You can check out the project right here on GitHub:  
-👉 **[https://github.com/Kitthinut/NEW_G6-Simulation](https://github.com/Kitthinut/NEW_G6-Simulation)**
+👉 **https://kitthinut.github.io/NEW_G6-Simulation/**
 
 Just open the files and explore the magic ✨
 
