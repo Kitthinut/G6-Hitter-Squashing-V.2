@@ -1,1 +1,84 @@
-# NEW_G6-Simulation
+# 🎾 G6 Squash Trainer Simulator 💥
+
+Welcome to **G6: Hitter Squashing** — a friendly and fun squash physics simulator made with 💖 by Group 6!
+
+This little app lets you:
+- Simulate squash hits using physics 🎯  
+- Customize racket velocity, mass & more 🧪  
+- Map and manage hitting zones 🗺️  
+- Visualize results like angle, time, and distance 📊  
+
+---
+
+## 🌟 Features
+
+- 📌 **Zone Mapping** — Add, edit, or reset squash zones.  
+- 🧮 **Physics Calculator** — See how different angles affect distance.  
+- 🎛️ **Custom Settings** — Change racket velocity, mass, and restitution.  
+- 💅 **Cute UI** — Because squash deserves some sparkle too ✨  
+
+---
+
+## 📂 Project Structure
+
+```
+NEW_G6-Simulation/
+├── index.html              # Main simulation page
+├── map_settings.html       # Zone mapping interface
+├── settings.html           # Physics settings page
+├── style.css               # Custom cute dark-mode styling
+├── calculator.js           # Calculates trajectories
+├── map_settings.js         # Zone adding/deleting logic
+├── settings.js             # Load/save custom settings
+└── shared.js               # Shared utility code
+```
+
+---
+
+## 🚀 Getting Started
+
+You can try this out in just 3 steps!
+
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/Kitthinut/NEW_G6-Simulation.git
+   ```
+
+2. **Open `index.html` in your browser**  
+   Double click or use a Live Server extension 🔥
+
+3. **Start squashing!**  
+   Explore zones, tweak physics, and have fun!
+
+---
+
+## 🧠 Tech Stack
+
+- HTML, CSS, JavaScript  
+- No frameworks — just clean, cozy vanilla code 🍦
+
+---
+
+## 🙌 Made With Love By
+
+- 🧠 Kitthinut and Team G6  
+- ✨ For physics lovers & squash nerds  
+- 💬 Feedback and stars are always welcome!
+
+---
+
+## 🐣 Future Ideas?
+
+- 🎮 Game mode or scoring  
+- 📱 Mobile-friendly layout  
+- 🔊 Sound effects (boing! smash!)
+
+---
+
+## 🐾 License
+
+MIT License — remix, share, and enjoy 💜
+
+---
+
+_“Let’s get squashy!” – G6 🫶_
