@@ -37,7 +37,7 @@ h2 {
 
 h3 {
   color: #aaaaff;
-  text-align: left; /* Adjusted for zone list heading */
+  text-align: left; 
   margin: 1.5rem 0 1rem;
   font-size: 1.2rem;
   border-bottom: 1px solid #444;
@@ -95,7 +95,7 @@ h3 {
 }
 
 #zoneButtons button {
-  background-color: #6a5acd; /* Example color */
+  background-color: #6a5acd; 
   color: white;
   border: none;
   padding: 0.8rem 1.2rem;
@@ -142,7 +142,7 @@ h3 {
 /* Add Zone Form (for map_settings.html) */
 #addZoneButton,
 #resetZonesButton {
-  background-color: #5cb85c; /* Add Zone button color */
+  background-color: #5cb85c; 
   color: white;
   border: none;
   padding: 1rem 1.5rem;
@@ -155,7 +155,7 @@ h3 {
 }
 
 #resetZonesButton {
-  background-color: #f0ad4e; /* Reset Zones button color */
+  background-color: #f0ad4e; 
 }
 
 #addZoneButton:hover {
@@ -192,7 +192,7 @@ h3 {
 }
 
 #zoneList li button {
-  background-color: #d9534f; /* Delete button color */
+  background-color: #d9534f; 
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -231,10 +231,6 @@ h3 {
   transform: translateY(-2px);
 }
 
-.button-row button#saveSettings {
-  /* Inherits default button styles */
-}
-
 .button-row button#resetSettings {
   background-color: #444;
 }
@@ -265,5 +261,5 @@ h3 {
 }
 
 .settings-link a:first-child {
-  margin-right: 1rem; /* Add spacing between links */
+  margin-right: 1rem; 
 }
