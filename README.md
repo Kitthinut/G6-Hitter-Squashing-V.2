@@ -6,14 +6,14 @@ This little app lets you:
 - Simulate squash hits using physics 🎯  
 - Customize racket velocity, mass & more 🧪  
 - Map and manage hitting zones 🗺️  
-- Visualize results like angle, time, and distance 📊  
+- Visualize results like angle, time, and distance use for your machine 📊  
 
 ---
 
 ## 🌟 Features
 
 - 📌 **Zone Mapping** — Add, edit, or reset squash zones.  
-- 🧮 **Physics Calculator** — See how different angles affect distance.  
+- 🧮 **Physics Calculator** — Tell you the most suitable settings for your machine!
 - 🎛️ **Custom Settings** — Change racket velocity, mass, and restitution.  
 - 💅 **Cute UI** — Because squash deserves some sparkle too ✨  
 
