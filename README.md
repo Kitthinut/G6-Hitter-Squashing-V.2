@@ -1,12 +1,8 @@
-# 🎾 G6 Squash Trainer Simulator 💥
+# G6 Hitter Squashing Simulation 🏓🌸🎯
 
-Welcome to **G6: Hitter Squashing** — a friendly and fun squash physics simulator made with 💖 by Group 6!
+## Overview 🌟
 
-This little app lets you:
-- Simulate squash hits using physics 🎯  
-- Customize racket velocity, mass & more 🧪  
-- Map and manage hitting zones 🗺️  
-- Visualize results like angle, time, and distance use for your machine 📊  
+The **G6 Hitter Squashing Simulation** is a web-based application created as an assignment for the FIBO (Institute of Field Robotics) subject **Robotics Studio I: Science in Motion (FRA163)**. The web app simulates the distance a ball travels when hit with a specific angle 🎾, with other factors such as initial velocity, racket mass, and coefficient of restitution being customizable through the settings ⚙️. This project is designed with a cute and user-friendly interface 💖 to make your trauma simulation just like a rainbow 🌈 and a sip of matcha on a spring day 🍵❀
 
 ---
 
@@ -37,33 +33,24 @@ NEW_G6-Simulation/
 
 ## 🚀 Getting Started
 
-You can check out the project right here on GitHub:  
+Check out the live version here:  
 👉 **https://kitthinut.github.io/NEW_G6-Simulation/**
-
-Just open the files and explore the magic ✨
 
 ---
 
-## 🧠 Tech Stack
+## 🧠 Technologies Used 💻
 
-- HTML, CSS, JavaScript  
-- No frameworks — just clean, cozy vanilla code 🍦
+- **HTML** for structure 🏗️  
+- **CSS** for stylish cuteness ✨  
+- **JavaScript** for smart, interactive magic (ง •̀_•́)ง
 
 ---
 
 ## 🙌 Made With Love By
 
-- 🧠 Kitthinut and Team G6  
-- ✨ For physics lovers & squash nerds  
+- 🧠 Kitthinut and Team G6 : FRA162-163 
+- ✨ For anyone wanting to know what settings you should use with our simple squash hitter machine  
 - 💬 Feedback and stars are always welcome!
-
----
-
-## 🐣 Future Ideas?
-
-- 🎮 Game mode or scoring  
-- 📱 Mobile-friendly layout  
-- 🔊 Sound effects (boing! smash!)
 
 ---
 
@@ -73,4 +60,8 @@ MIT License — remix, share, and enjoy 💜
 
 ---
 
-_“Let’s get squashy!” – G6 🫶_
+## Contributing 🤝
+
+Want to help this project grow like a cherry blossom tree? 🌸✨  
+Feel free to fork the repo, create an issue, or make a pull request!  
+All kinds of contributions are welcome ~ ヾ(＾∇＾)
