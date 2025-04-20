@@ -37,18 +37,10 @@ NEW_G6-Simulation/
 
 ## 🚀 Getting Started
 
-You can try this out in just 3 steps!
+You can check out the project right here on GitHub:  
+👉 **[https://github.com/Kitthinut/NEW_G6-Simulation](https://github.com/Kitthinut/NEW_G6-Simulation)**
 
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/Kitthinut/NEW_G6-Simulation.git
-   ```
-
-2. **Open `index.html` in your browser**  
-   Double click or use a Live Server extension 🔥
-
-3. **Start squashing!**  
-   Explore zones, tweak physics, and have fun!
+Just open the files and explore the magic ✨
 
 ---
 
