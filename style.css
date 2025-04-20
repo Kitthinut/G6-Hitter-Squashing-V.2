@@ -1,0 +1,269 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: 'Comic Neue', cursive, sans-serif;
+  background-color: #1c1c2e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 480px;
+  width: 90%;
+  background: #2a2a40;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+/* Typography */
+h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #ffccff;
+}
+
+h2 {
+  color: #ffccff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+}
+
+h3 {
+  color: #aaaaff;
+  text-align: left; /* Adjusted for zone list heading */
+  margin: 1.5rem 0 1rem;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.5rem;
+}
+
+/* Input Groups */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.input-group label {
+  color: #aaaaff;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.input-group input[type="number"],
+.input-group input[type="text"] {
+  padding: 1rem;
+  border: 1px solid #444;
+  border-radius: 10px;
+  background-color: #3a3a5a;
+  color: white;
+  font-family: 'Comic Neue', cursive;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-group input[type="number"]:focus,
+.input-group input[type="text"]:focus {
+  outline: none;
+  border-color: #b87dc7;
+  box-shadow: 0 0 8px rgba(184, 125, 199, 0.6);
+}
+
+.input-group input[type="number"]::placeholder,
+.input-group input[type="text"]::placeholder {
+  color: #bbb;
+  opacity: 1;
+}
+
+/* Zone Buttons (for index.html) */
+#zoneButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+#zoneButtons button {
+  background-color: #6a5acd; /* Example color */
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease-in-out;
+}
+
+#zoneButtons button:hover {
+  background-color: #8370e1;
+  transform: translateY(-2px);
+}
+
+/* Results Display (for index.html) */
+#results {
+  background-color: #3a3a5a;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+#results h2 {
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#results p {
+  font-size: 1rem;
+  color: #eee;
+  margin-bottom: 0.8rem;
+}
+
+#results strong {
+  color: #aaaaff;
+}
+
+#results span {
+  color: #ffccff;
+}
+
+/* Add Zone Form (for map_settings.html) */
+#addZoneButton,
+#resetZonesButton {
+  background-color: #5cb85c; /* Add Zone button color */
+  color: white;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease-in-out;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+}
+
+#resetZonesButton {
+  background-color: #f0ad4e; /* Reset Zones button color */
+}
+
+#addZoneButton:hover {
+  background-color: #4cae4c;
+  transform: translateY(-2px);
+}
+
+#resetZonesButton:hover {
+  background-color: #eea236;
+  transform: translateY(-2px);
+}
+
+/* Zone List (for map_settings.html) */
+#zoneList {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+#zoneList li {
+  background-color: #444;
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#zoneList li span {
+  flex-grow: 1;
+  margin-right: 1rem;
+  color: #eee;
+}
+
+#zoneList li button {
+  background-color: #d9534f; /* Delete button color */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease-in-out;
+}
+
+#zoneList li button:hover {
+  background-color: #c9302c;
+  transform: translateY(-1px);
+}
+
+/* Button Row (for settings.html) */
+.button-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.button-row button {
+  flex: 1;
+  background-color: #b87dc7;
+  color: white;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease-in-out;
+}
+
+.button-row button:hover {
+  background-color: #d9a3e6;
+  transform: translateY(-2px);
+}
+
+.button-row button#saveSettings {
+  /* Inherits default button styles */
+}
+
+.button-row button#resetSettings {
+  background-color: #444;
+}
+
+.button-row button#resetSettings:hover {
+  background-color: #555;
+}
+
+/* Navigation Link (common to all) */
+.settings-link {
+  text-align: center;
+}
+
+.settings-link p {
+  margin-bottom: 0;
+}
+
+.settings-link a {
+  color: #b87dc7;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.settings-link a:hover {
+  color: #d9a3e6;
+  text-decoration: underline;
+}
+
+.settings-link a:first-child {
+  margin-right: 1rem; /* Add spacing between links */
+}

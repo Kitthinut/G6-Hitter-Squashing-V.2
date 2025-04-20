@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>🌍 Map Zones - Squash Buddy</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="shared.js"></script>
+    <script type="module" src="map_settings.js"></script>
+  </head>
+  <body>
+    <div class="app">
+      <h1>🗺️ Zone Mapper</h1>
+
+      <div>
+        <h2>🎯 Customize Your Zones</h2>
+        <input type="text" id="zoneName" placeholder="✨ Zone Name" />
+        <input type="number" id="zoneStart" placeholder="🌟 Start (m)" />
+        <input type="number" id="zoneEnd" placeholder="🌈 End (m)" />
+        <button id="addZoneButton">➕ Add Zone</button>
+        <button id="resetZonesButton">🔄 Reset Zones</button>
+
+        <h3>📋 Your Zones</h3>
+        <ul id="zoneList"></ul>
+      </div>
+
+      <div class="settings-link">
+        <p><a href="index.html">🏠 Back to Home Sweet Home</a></p>
+      </div>
+    </div>
+  </body>
+</html>

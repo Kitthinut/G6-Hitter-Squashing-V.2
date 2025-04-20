@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>⚙️ Squash Buddy Settings</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" defer src="shared.js"></script>
+    <script type="module" defer src="settings.js"></script>
+  </head>
+  <body>
+    <div class="app">
+      <h1>⚙️ Physics Magic Lab ✨</h1>
+
+      <div class="input-group">
+        <label for="racketVelocity">🏃‍♂️ Racket Velocity (m/s):</label>
+        <input type="number" id="racketVelocity" step="0.1" placeholder="Zoom zoom..." />
+
+        <label for="coefficient">🔁 Bounciness (Coefficient of Restitution):</label>
+        <input type="number" id="coefficient" step="0.01" placeholder="How bouncy?" />
+
+        <label for="racketMass">🎾 Racket Mass (kg):</label>
+        <input type="number" id="racketMass" step="0.01" placeholder="Heavy hitter?" />
+      </div>
+
+      <div class="button-row">
+        <button id="saveSettings">💾 Save My Settings</button>
+        <button id="resetSettings">🔄 Reset to Defaults</button>
+      </div>
+
+      <div class="settings-link">
+        <p><a href="index.html">🏠 Back to Home Sweet Home</a></p>
+      </div>
+    </div>
+  </body>
+</html>
