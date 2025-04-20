@@ -75,10 +75,4 @@ You can try this out in just 3 steps!
 
 ---
 
-## 🐾 License
-
-MIT License — remix, share, and enjoy 💜
-
----
-
 _“Let’s get squashy!” – G6 🫶_
