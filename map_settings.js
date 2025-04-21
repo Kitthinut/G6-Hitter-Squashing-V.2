@@ -1,5 +1,6 @@
 import { Zone, ZoneManager } from "./shared.js";
 
+// This helps you add or remove zones
 class ZoneEditor {
   constructor() {
     this.zoneManager = new ZoneManager();
@@ -15,6 +16,7 @@ class ZoneEditor {
     this.render();
   }
 
+  // Add a new zone when button is clicked
   addZone() {
     const zone = new Zone(
       this.nameInput.value,
@@ -26,22 +28,26 @@ class ZoneEditor {
     this.render();
   }
 
+  // Delete a zone by its name
   deleteZone(name) {
     this.zoneManager.delete(name);
     this.render();
   }
 
+  // Reset zones back to default ones
   resetZones() {
     this.zoneManager.reset();
     this.render();
   }
 
+  // Clear the input boxes
   clearInputs() {
     this.nameInput.value = "";
     this.startInput.value = "";
     this.endInput.value = "";
   }
 
+  // Show all the zones on screen
   render() {
     const zones = this.zoneManager.getAll();
     this.zoneList.innerHTML = "";
@@ -57,4 +63,5 @@ class ZoneEditor {
   }
 }
 
+// Start the zone editor when the page loads
 window.addEventListener("DOMContentLoaded", () => new ZoneEditor());
