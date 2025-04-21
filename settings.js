@@ -8,6 +8,7 @@ class SettingsManager {
     this.init();
   }
 
+  // Load settings or use the default ones
   init() {
     const saved = JSON.parse(localStorage.getItem("settings"));
     if (saved) {
@@ -24,6 +25,7 @@ class SettingsManager {
     this.resetBtn.addEventListener("click", () => this.reset());
   }
 
+  // Save what user typed
   save() {
     localStorage.setItem(
       "settings",
@@ -36,6 +38,7 @@ class SettingsManager {
     alert("Settings saved!");
   }
 
+  // Go back to default values
   reset() {
     localStorage.removeItem("settings");
     this.velocityInput.value = 5.47;
@@ -44,4 +47,5 @@ class SettingsManager {
   }
 }
 
+// Run the settings manager when page opens
 window.addEventListener("DOMContentLoaded", () => new SettingsManager());
