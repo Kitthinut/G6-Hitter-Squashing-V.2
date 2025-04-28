@@ -1,4 +1,4 @@
-# G6 Hitter Squashing Simulation 🏓🌸🎯
+# G6 Hitter Squashing V.2 🏓🌸🎯
 
 ## Overview 🌟
 
